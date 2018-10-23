@@ -1,22 +1,22 @@
 {
-	"b-container": {
-		"prefix": "b-container",
+	"bs4-container": {
+		"prefix": "bs4-container",
 		"body": [
 			"<div class=\"container\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-container-fluid": {
-		"prefix": "b-container-fluid",
+	"bs4-container-fluid": {
+		"prefix": "bs4-container-fluid",
 		"body": [
 			"<div class=\"container-fluid\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-row": {
-		"prefix": "b-row",
+	"bs4-row": {
+		"prefix": "bs4-row",
 		"body": [
 			"<div class=\"row\">",
 			"\t<div class=\"col\">",
@@ -25,8 +25,8 @@
 			"</div>"
 		]
 	},
-	"b-media-left": {
-		"prefix": "b-media-left",
+	"bs4-media-left": {
+		"prefix": "bs4-media-left",
 		"body": [
 			"<div class=\"media\">",
 			"\t<img class=\"align-self-${1|start,center,end|}\" src=\"$4\">",
@@ -37,8 +37,8 @@
 			"</div>"
 		]
 	},
-	"b-media-right": {
-		"prefix": "b-media-right",
+	"bs4-media-right": {
+		"prefix": "bs4-media-right",
 		"body": [
 			"<div class=\"media\">",
 			"\t<div class=\"media-body\">",
@@ -49,34 +49,34 @@
 			"</div>"
 		]
 	},
-	"b-display": {
-		"prefix": "b-display",
+	"bs4-display": {
+		"prefix": "bs4-display",
 		"body": [
 			"<h1 class=\"display-${1|1,2,3,4|}\">${2:Text}</h1>"
 		]
 	},
-	"b-abbr": {
-		"prefix": "b-abbr",
+	"bs4-abbr": {
+		"prefix": "bs4-abbr",
 		"body": [
 			"<abbr title=\"${1:Title}\">${2:Text}</abbr>"
 		]
 	},
-	"b-abbr-small": {
-		"prefix": "b-abbr-small",
+	"bs4-abbr-small": {
+		"prefix": "bs4-abbr-small",
 		"body": [
 			"<abbr class=\"initialism\" title=\"${1:Title}\">${2:Text}</abbr>"
 		]
 	},
-	"b-blockquote": {
-		"prefix": "b-blockquote",
+	"bs4-blockquote": {
+		"prefix": "bs4-blockquote",
 		"body": [
 			"<blockquote class=\"blockquote\">",
 			"\t<p class=\"mb-0\">${1:Text}</p>",
 			"</blockquote>"
 		]
 	},
-	"b-blockquote-footer": {
-		"prefix": "b-blockquote-footer",
+	"bs4-blockquote-footer": {
+		"prefix": "bs4-blockquote-footer",
 		"body": [
 			"<blockquote class=\"blockquote\">",
 			"\t<p class=\"mb-0\">${1:Text}</p>",
@@ -84,36 +84,36 @@
 			"</blockquote>"
 		]
 	},
-	"b-list-unstyled": {
-		"prefix": "b-list-unstyled",
+	"bs4-list-unstyled": {
+		"prefix": "bs4-list-unstyled",
 		"body": [
 			"<ul class=\"list-unstyled\">",
 			"\t<li>${1:Text}</li>$0",
 			"</ul>"
 		]
 	},
-	"b-list-inline": {
-		"prefix": "b-list-inline",
+	"bs4-list-inline": {
+		"prefix": "bs4-list-inline",
 		"body": [
 			"<ul class=\"list-inline\">",
 			"\t<li class=\"list-inline-item\">${1:Text}</li>$0",
 			"</ul>"
 		]
 	},
-	"b-img-fluid": {
-		"prefix": "b-img-fluid",
+	"bs4-img-fluid": {
+		"prefix": "bs4-img-fluid",
 		"body": [
 			"<img class=\"img-fluid\" src=\"$1\">"
 		]
 	},
-	"b-img-thumbnail": {
-		"prefix": "b-img-thumbnail",
+	"bs4-img-thumbnail": {
+		"prefix": "bs4-img-thumbnail",
 		"body": [
 			"<img class=\"img-thumbnail\" src=\"$1\">"
 		]
 	},
-	"b-table": {
-		"prefix": "b-table",
+	"bs4-table": {
+		"prefix": "bs4-table",
 		"body": [
 			"<table class=\"table table-${1|light,dark|}\">",
 			"\t<tbody>",
@@ -124,8 +124,8 @@
 			"</table>"
 		]
 	},
-	"b-table-header": {
-		"prefix": "b-table-header",
+	"bs4-table-header": {
+		"prefix": "bs4-table-header",
 		"body": [
 			"<table class=\"table table-${1|light,dark|}\">",
 			"\t<thead class=\"thead-${2|light,dark|}\">",
@@ -141,8 +141,8 @@
 			"</table>"
 		]
 	},
-	"b-table-footer": {
-		"prefix": "b-table-footer",
+	"bs4-table-footer": {
+		"prefix": "bs4-table-footer",
 		"body": [
 			"<table class=\"table table-${1|light,dark|}\">",
 			"\t<tbody>",
@@ -158,8 +158,8 @@
 			"</table>"
 		]
 	},
-	"b-table-full": {
-		"prefix": "b-table-full",
+	"bs4-table-full": {
+		"prefix": "bs4-table-full",
 		"body": [
 			"<table class=\"table table-${1|light,dark|}\">",
 			"\t<thead class=\"thead-${2|light,dark|}\">",
@@ -180,8 +180,8 @@
 			"</table>"
 		]
 	},
-	"b-figure": {
-		"prefix": "b-figure",
+	"bs4-figure": {
+		"prefix": "bs4-figure",
 		"body": [
 			"<figure class=\"figure\">",
 			"\t<img class=\"figure-img img-fluid\" src=\"$2\">",
@@ -189,64 +189,64 @@
 			"</figure>"
 		]
 	},
-	"b-clearfix": {
-		"prefix": "b-clearfix",
+	"bs4-clearfix": {
+		"prefix": "bs4-clearfix",
 		"body": [
 			"<div class=\"clearfix\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-embed-responsive": {
-		"prefix": "b-embed-responsive",
+	"bs4-embed-responsive": {
+		"prefix": "bs4-embed-responsive",
 		"body": [
 			"<div class=\"embed-responsive embed-responsive-${1|16by9,21by9,4by3,1by1|}\">",
 			"\t<iframe class=\"embed-responsive-item\" src=\"$2\"></iframe>",
 			"</div>"
 		]
 	},
-	"b-flex-row": {
-		"prefix": "b-flex-row",
+	"bs4-flex-row": {
+		"prefix": "bs4-flex-row",
 		"body": [
 			"<div class=\"d-flex flex-row\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-flex-row-reverse": {
-		"prefix": "b-flex-row-reverse",
+	"bs4-flex-row-reverse": {
+		"prefix": "bs4-flex-row-reverse",
 		"body": [
 			"<div class=\"d-flex flex-row-reverse\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-flex-column": {
-		"prefix": "b-flex-column",
+	"bs4-flex-column": {
+		"prefix": "bs4-flex-column",
 		"body": [
 			"<div class=\"d-flex flex-column\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-flex-column-reverse": {
-		"prefix": "b-flex-column-reverse",
+	"bs4-flex-column-reverse": {
+		"prefix": "bs4-flex-column-reverse",
 		"body": [
 			"<div class=\"d-flex flex-column-reverse\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-alert": {
-		"prefix": "b-alert",
+	"bs4-alert": {
+		"prefix": "bs4-alert",
 		"body": [
 			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\">",
 			"\t${2:Content}",
 			"</div>"
 		]
 	},
-	"b-alert-header": {
-		"prefix": "b-alert-header",
+	"bs4-alert-header": {
+		"prefix": "bs4-alert-header",
 		"body": [
 			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\">",
 			"\t<h4 class=\"alert-heading\">${2:Header}</h4>",
@@ -254,20 +254,20 @@
 			"</div>"
 		]
 	},
-	"b-badge": {
-		"prefix": "b-badge",
+	"bs4-badge": {
+		"prefix": "bs4-badge",
 		"body": [
 			"<span class=\"badge badge-${1|primary,secondary,success,danger,warning,info,light,dark|}\">${2:Text}</span>"
 		]
 	},
-	"b-badge-pill": {
-		"prefix": "b-badge-pill",
+	"bs4-badge-pill": {
+		"prefix": "bs4-badge-pill",
 		"body": [
 			"<span class=\"badge badge-pill badge-${1|primary,secondary,success,danger,warning,info,light,dark|}\">${2:Text}</span>"
 		]
 	},
-	"b-breadcrumb": {
-		"prefix": "b-breadcrumb",
+	"bs4-breadcrumb": {
+		"prefix": "bs4-breadcrumb",
 		"body": [
 			"<nav>",
 			"\t<ol class=\"breadcrumb\">",
@@ -276,26 +276,26 @@
 			"</nav>"
 		]
 	},
-	"b-btn": {
-		"prefix": "b-btn",
+	"bs4-btn": {
+		"prefix": "bs4-btn",
 		"body": [
 			"<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\">${3:Text}</button>"
 		]
 	},
-	"b-btn:a": {
-		"prefix": "b-btn:a",
+	"bs4-btn:a": {
+		"prefix": "bs4-btn:a",
 		"body": [
 			"<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" href=\"#\">${2:Text}</a>"
 		]
 	},
-	"b-btn:input": {
-		"prefix": "b-btn:input",
+	"bs4-btn:input": {
+		"prefix": "bs4-btn:input",
 		"body": [
 			"<input class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\" value=\"${3:Text}\">"
 		]
 	},
-	"b-btn-checkbox": {
-		"prefix": "b-btn-checkbox",
+	"bs4-btn-checkbox": {
+		"prefix": "bs4-btn-checkbox",
 		"body": [
 			"<div class=\"btn-group-toggle\" data-toggle=\"buttons\">",
 			"\t<label class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">",
@@ -304,8 +304,8 @@
 			"</div>"
 		]
 	},
-	"b-btn-radio": {
-		"prefix": "b-btn-radio",
+	"bs4-btn-radio": {
+		"prefix": "bs4-btn-radio",
 		"body": [
 			"<div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\">",
 			"\t<label class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">",
@@ -314,24 +314,24 @@
 			"</div>"
 		]
 	},
-	"b-btn-group": {
-		"prefix": "b-btn-group",
+	"bs4-btn-group": {
+		"prefix": "bs4-btn-group",
 		"body": [
 			"<div class=\"btn-group\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-btn-group-vertical": {
-		"prefix": "b-btn-group-vertical",
+	"bs4-btn-group-vertical": {
+		"prefix": "bs4-btn-group-vertical",
 		"body": [
 			"<div class=\"btn-group-vertical\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-card": {
-		"prefix": "b-card",
+	"bs4-card": {
+		"prefix": "bs4-card",
 		"body": [
 			"<div class=\"card\">",
 			"\t<div class=\"card-body\">",
@@ -341,8 +341,8 @@
 			"</div>"
 		]
 	},
-	"b-card-header": {
-		"prefix": "b-card-header",
+	"bs4-card-header": {
+		"prefix": "bs4-card-header",
 		"body": [
 			"<div class=\"card\">",
 			"\t<div class=\"card-header\">",
@@ -355,8 +355,8 @@
 			"</div>"
 		]
 	},
-	"b-card-footer": {
-		"prefix": "b-card-footer",
+	"bs4-card-footer": {
+		"prefix": "bs4-card-footer",
 		"body": [
 			"<div class=\"card\">",
 			"\t<div class=\"card-body\">",
@@ -369,8 +369,8 @@
 			"</div>"
 		]
 	},
-	"b-card-full": {
-		"prefix": "b-card-full",
+	"bs4-card-full": {
+		"prefix": "bs4-card-full",
 		"body": [
 			"<div class=\"card\">",
 			"\t<div class=\"card-header\">",
@@ -386,8 +386,8 @@
 			"</div>"
 		]
 	},
-	"b-card-img-top": {
-		"prefix": "b-card-img-top",
+	"bs4-card-img-top": {
+		"prefix": "bs4-card-img-top",
 		"body": [
 			"<div class=\"card\">",
 			"\t<img class=\"card-img-top\" src=\"$3\">",
@@ -398,8 +398,8 @@
 			"</div>"
 		]
 	},
-	"b-card-img-bottom": {
-		"prefix": "b-card-img-bottom",
+	"bs4-card-img-bottom": {
+		"prefix": "bs4-card-img-bottom",
 		"body": [
 			"<div class=\"card\">",
 			"\t<div class=\"card-body\">",
@@ -410,8 +410,8 @@
 			"</div>"
 		]
 	},
-	"b-card-img-full": {
-		"prefix": "b-card-img-full",
+	"bs4-card-img-full": {
+		"prefix": "bs4-card-img-full",
 		"body": [
 			"<div class=\"card\">",
 			"\t<img class=\"card-img-top\" src=\"$3\">",
@@ -423,8 +423,8 @@
 			"</div>"
 		]
 	},
-	"b-card-img-overlay": {
-		"prefix": "b-card-img-overlay",
+	"bs4-card-img-overlay": {
+		"prefix": "bs4-card-img-overlay",
 		"body": [
 			"<div class=\"card\">",
 			"\t<img class=\"card-img\" src=\"$3\">",
@@ -435,32 +435,32 @@
 			"</div>"
 		]
 	},
-	"b-card-group": {
-		"prefix": "b-card-group",
+	"bs4-card-group": {
+		"prefix": "bs4-card-group",
 		"body": [
 			"<div class=\"card-group\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-card-deck": {
-		"prefix": "b-card-deck",
+	"bs4-card-deck": {
+		"prefix": "bs4-card-deck",
 		"body": [
 			"<div class=\"card-deck\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-card-columns": {
-		"prefix": "b-card-columns",
+	"bs4-card-columns": {
+		"prefix": "bs4-card-columns",
 		"body": [
 			"<div class=\"card-columns\">",
 			"\t$0",
 			"</div>"
 		]
 	},
-	"b-carousel": {
-		"prefix": "b-carousel",
+	"bs4-carousel": {
+		"prefix": "bs4-carousel",
 		"body": [
 			"<div id=\"${1:my-carousel}\" class=\"carousel slide\" data-ride=\"carousel\">",
 			"\t<div class=\"carousel-inner\">",
@@ -475,8 +475,8 @@
 			"</div>"
 		]
 	},
-	"b-carousel-controls": {
-		"prefix": "b-carousel-controls",
+	"bs4-carousel-controls": {
+		"prefix": "bs4-carousel-controls",
 		"body": [
 			"<div id=\"${1:my-carousel}\" class=\"carousel slide\" data-ride=\"carousel\">",
 			"\t<div class=\"carousel-inner\">",
@@ -497,8 +497,8 @@
 			"</div>"
 		]
 	},
-	"b-carousel-indicators": {
-		"prefix": "b-carousel-indicators",
+	"bs4-carousel-indicators": {
+		"prefix": "bs4-carousel-indicators",
 		"body": [
 			"<div id=\"${1:my-carousel}\" class=\"carousel slide\" data-ride=\"carousel\">",
 			"\t<ol class=\"carousel-indicators\">",
@@ -516,8 +516,8 @@
 			"</div>"
 		]
 	},
-	"b-carousel-full": {
-		"prefix": "b-carousel-full",
+	"bs4-carousel-full": {
+		"prefix": "bs4-carousel-full",
 		"body": [
 			"<div id=\"${1:my-carousel}\" class=\"carousel slide\" data-ride=\"carousel\">",
 			"\t<ol class=\"carousel-indicators\">",
@@ -541,8 +541,8 @@
 			"</div>"
 		]
 	},
-	"b-collapse": {
-		"prefix": "b-collapse",
+	"bs4-collapse": {
+		"prefix": "bs4-collapse",
 		"body": [
 			"<button class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\" data-target=\"#${1:my-collapse}\" data-toggle=\"collapse\">${3:Text}</button>",
 			"<div id=\"$1\" class=\"collapse\">",
@@ -550,8 +550,8 @@
 			"</div>"
 		]
 	},
-	"b-collapse:a": {
-		"prefix": "b-collapse:a",
+	"bs4-collapse:a": {
+		"prefix": "bs4-collapse:a",
 		"body": [
 			"<a class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\" href=\"#${1:my-collapse}\" data-toggle=\"collapse\">${3:Text}</a>",
 			"<div id=\"$1\" class=\"collapse\">",
@@ -559,8 +559,8 @@
 			"</div>"
 		]
 	},
-	"b-dropdown": {
-		"prefix": "b-dropdown",
+	"bs4-dropdown": {
+		"prefix": "bs4-dropdown",
 		"body": [
 			"<div class=\"${1|dropdown,dropup,dropright,dropleft|}\">",
 			"\t<button class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" data-toggle=\"dropdown\">${3:Text}</button>",
@@ -570,8 +570,8 @@
 			"</div>"
 		]
 	},
-	"b-dropdown:a": {
-		"prefix": "b-dropdown:a",
+	"bs4-dropdown:a": {
+		"prefix": "bs4-dropdown:a",
 		"body": [
 			"<div class=\"${1|dropdown,dropup,dropright,dropleft|}\">",
 			"\t<a class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\">${3:Text}</a>",
@@ -581,8 +581,8 @@
 			"</div>"
 		]
 	},
-	"b-dropdown-split": {
-		"prefix": "b-dropdown-split",
+	"bs4-dropdown-split": {
+		"prefix": "bs4-dropdown-split",
 		"body": [
 			"<div class=\"btn-group ${1|dropdown,dropup,dropright,dropleft|}\">",
 			"\t<button class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\">${3:Text}</button>",
@@ -593,8 +593,8 @@
 			"</div>"
 		]
 	},
-	"b-dropdown-split:a": {
-		"prefix": "b-dropdown-split:a",
+	"bs4-dropdown-split:a": {
+		"prefix": "bs4-dropdown-split:a",
 		"body": [
 			"<div class=\"btn-group ${1|dropdown,dropup,dropright,dropleft|}\">",
 			"\t<a class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\" href=\"#\">${3:Text}</a>",
@@ -605,44 +605,44 @@
 			"</div>"
 		]
 	},
-	"b-dropdown-menu": {
-		"prefix": "b-dropdown-menu",
+	"bs4-dropdown-menu": {
+		"prefix": "bs4-dropdown-menu",
 		"body": [
 			"<div class=\"dropdown-menu\">",
 			"\t<a class=\"dropdown-item active\" href=\"#\">${1:Text}</a>$0",
 			"</div>"
 		]
 	},
-	"b-form": {
-		"prefix": "b-form",
+	"bs4-form": {
+		"prefix": "bs4-form",
 		"body": [
 			"<form method=\"${1|get,post|}\" action=\"$2\">",
 			"\t$0",
 			"</form>"
 		]
 	},
-	"b-form-inline": {
-		"prefix": "b-form-inline",
+	"bs4-form-inline": {
+		"prefix": "bs4-form-inline",
 		"body": [
 			"<form class=\"form-inline\" method=\"${1|get,post|}\" action=\"$2\">",
 			"\t$0",
 			"</form>"
 		]
 	},
-	"b-form-input": {
-		"prefix": "b-form-input",
+	"bs4-form-input": {
+		"prefix": "bs4-form-input",
 		"body": [
 			"<input id=\"$1\" class=\"form-control\" type=\"${2|text,number,email,password|}\">"
 		]
 	},
-	"b-form-hidden": {
-		"prefix": "b-form-hidden",
+	"bs4-form-hidden": {
+		"prefix": "bs4-form-hidden",
 		"body": [
 			"<input id=\"$1\" type=\"hidden\" value=\"$2\">"
 		]
 	},
-	"b-form-group": {
-		"prefix": "b-form-group",
+	"bs4-form-group": {
+		"prefix": "bs4-form-group",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${3:Text}</label>",
@@ -650,8 +650,8 @@
 			"</div>"
 		]
 	},
-	"b-form-check": {
-		"prefix": "b-form-check",
+	"bs4-form-check": {
+		"prefix": "bs4-form-check",
 		"body": [
 			"<div class=\"form-check\">",
 			"\t<input id=\"${1:my-input}\" class=\"form-check-input\" type=\"${2|checkbox,radio|}\">",
@@ -659,8 +659,8 @@
 			"</div>"
 		]
 	},
-	"b-form-check-inline": {
-		"prefix": "b-form-check-inline",
+	"bs4-form-check-inline": {
+		"prefix": "bs4-form-check-inline",
 		"body": [
 			"<div class=\"form-check form-check-inline\">",
 			"\t<input id=\"${1:my-input}\" class=\"form-check-input\" type=\"${2|checkbox,radio|}\">",
@@ -668,8 +668,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-check": {
-		"prefix": "b-form-custom-check",
+	"bs4-form-custom-check": {
+		"prefix": "bs4-form-custom-check",
 		"body": [
 			"<div class=\"custom-control custom-${2|checkbox,radio|}\">",
 			"\t<input id=\"${1:my-input}\" class=\"custom-control-input\" type=\"${2|checkbox,radio|}\">",
@@ -677,8 +677,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-check-inline": {
-		"prefix": "b-form-custom-check-inline",
+	"bs4-form-custom-check-inline": {
+		"prefix": "bs4-form-custom-check-inline",
 		"body": [
 			"<div class=\"custom-control custom-${2|checkbox,radio|} custom-control-inline\">",
 			"\t<input id=\"${1:my-input}\" class=\"custom-control-input\" type=\"${2|checkbox,radio|}\">",
@@ -686,8 +686,8 @@
 			"</div>"
 		]
 	},
-	"b-form-select": {
-		"prefix": "b-form-select",
+	"bs4-form-select": {
+		"prefix": "bs4-form-select",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${2:Text}</label>",
@@ -697,8 +697,8 @@
 			"</div>"
 		]
 	},
-	"b-form-select-multiple": {
-		"prefix": "b-form-select-multiple",
+	"bs4-form-select-multiple": {
+		"prefix": "bs4-form-select-multiple",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${2:Text}</label>",
@@ -708,8 +708,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-select": {
-		"prefix": "b-form-custom-select",
+	"bs4-form-custom-select": {
+		"prefix": "bs4-form-custom-select",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${2:Text}</label>",
@@ -719,8 +719,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-select-multiple": {
-		"prefix": "b-form-custom-select-multiple",
+	"bs4-form-custom-select-multiple": {
+		"prefix": "bs4-form-custom-select-multiple",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${2:Text}</label>",
@@ -730,8 +730,8 @@
 			"</div>"
 		]
 	},
-	"b-form-textarea": {
-		"prefix": "b-form-textarea",
+	"bs4-form-textarea": {
+		"prefix": "bs4-form-textarea",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${3:Text}</label>",
@@ -739,8 +739,8 @@
 			"</div>"
 		]
 	},
-	"b-form-file": {
-		"prefix": "b-form-file",
+	"bs4-form-file": {
+		"prefix": "bs4-form-file",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${2:Text}</label>",
@@ -748,8 +748,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-file": {
-		"prefix": "b-form-custom-file",
+	"bs4-form-custom-file": {
+		"prefix": "bs4-form-custom-file",
 		"body": [
 			"<div class=\"custom-file\">",
 			"\t<input id=\"${1:my-input}\" class=\"custom-file-input\" type=\"file\">",
@@ -757,8 +757,8 @@
 			"</div>"
 		]
 	},
-	"b-form-range": {
-		"prefix": "b-form-range",
+	"bs4-form-range": {
+		"prefix": "bs4-form-range",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${4:Text}</label>",
@@ -766,8 +766,8 @@
 			"</div>"
 		]
 	},
-	"b-form-custom-range": {
-		"prefix": "b-form-custom-range",
+	"bs4-form-custom-range": {
+		"prefix": "bs4-form-custom-range",
 		"body": [
 			"<div class=\"form-group\">",
 			"\t<label for=\"${1:my-input}\">${4:Text}</label>",
@@ -775,26 +775,26 @@
 			"</div>"
 		]
 	},
-	"b-form-help": {
-		"prefix": "b-form-help",
+	"bs4-form-help": {
+		"prefix": "bs4-form-help",
 		"body": [
 			"<small class=\"form-text text-muted\">${1:Content}</small>"
 		]
 	},
-	"b-valid": {
-		"prefix": "b-form-valid",
+	"bs4-valid": {
+		"prefix": "bs4-form-valid",
 		"body": [
 			"<div class=\"valid-${1|feedback,tooltip|}\">${2:Content}</div>"
 		]
 	},
-	"b-invalid": {
-		"prefix": "b-form-invalid",
+	"bs4-invalid": {
+		"prefix": "bs4-form-invalid",
 		"body": [
 			"<div class=\"invalid-${1|feedback,tooltip|\">${2:Content}</div>"
 		]
 	},
-	"b-input-group-prepend": {
-		"prefix": "b-input-group-prepend",
+	"bs4-input-group-prepend": {
+		"prefix": "bs4-input-group-prepend",
 		"body": [
 			"<div class=\"input-group\">",
 			"\t<div class=\"input-group-prepend\">",
@@ -804,8 +804,8 @@
 			"</div>"
 		]
 	},
-	"b-input-group-append": {
-		"prefix": "b-input-group-append",
+	"bs4-input-group-append": {
+		"prefix": "bs4-input-group-append",
 		"body": [
 			"<div class=\"input-group\">",
 			"\t<input class=\"form-control\" type=\"${1|text,number,email,password|}\">",
@@ -815,8 +815,8 @@
 			"</div>"
 		]
 	},
-	"b-input-group-full": {
-		"prefix": "b-input-group-full",
+	"bs4-input-group-full": {
+		"prefix": "bs4-input-group-full",
 		"body": [
 			"<div class=\"input-group\">",
 			"\t<div class=\"input-group-prepend\">",
@@ -829,8 +829,8 @@
 			"</div>"
 		]
 	},
-	"b-jumbotron": {
-		"prefix": "b-jumbotron",
+	"bs4-jumbotron": {
+		"prefix": "bs4-jumbotron",
 		"body": [
 			"<div class=\"jumbotron\">",
 			"\t<h1 class=\"display-4\">${1:Title}</h1>",
@@ -840,8 +840,8 @@
 			"</div>"
 		]
 	},
-	"b-jumbotron-fluid": {
-		"prefix": "b-jumbotron-fluid",
+	"bs4-jumbotron-fluid": {
+		"prefix": "bs4-jumbotron-fluid",
 		"body": [
 			"<div class=\"jumbotron jumbotron-fluid\">",
 			"\t<h1 class=\"display-4\">${1:Title}</h1>",
@@ -851,40 +851,40 @@
 			"</div>"
 		]
 	},
-	"b-list-group": {
-		"prefix": "b-list-group",
+	"bs4-list-group": {
+		"prefix": "bs4-list-group",
 		"body": [
 			"<ul class=\"list-group\">",
 			"\t<li class=\"list-group-item active\">${1:Text}</li>$0",
 			"</ul>"
 		]
 	},
-	"b-list-group-action": {
-		"prefix": "b-list-group-action",
+	"bs4-list-group-action": {
+		"prefix": "bs4-list-group-action",
 		"body": [
 			"<ul class=\"list-group\">",
 			"\t<a class=\"list-group-item list-group-item-action active\" href=\"#\">${1:Text}</a>$0",
 			"</ul>"
 		]
 	},
-	"b-list-group-flush": {
-		"prefix": "b-list-group-flush",
+	"bs4-list-group-flush": {
+		"prefix": "bs4-list-group-flush",
 		"body": [
 			"<ul class=\"list-group list-group-flush\">",
 			"\t<li class=\"list-group-item active\">${1:Text}</li>$0",
 			"</ul>"
 		]
 	},
-	"b-list-group-action-flush": {
-		"prefix": "b-list-group-action-flush",
+	"bs4-list-group-action-flush": {
+		"prefix": "bs4-list-group-action-flush",
 		"body": [
 			"<ul class=\"list-group list-group-flush\">",
 			"\t<a class=\"list-group-item list-group-item-action active\" href=\"#\">${1:Text}</a>$0",
 			"</ul>"
 		]
 	},
-	"b-modal": {
-		"prefix": "b-modal",
+	"bs4-modal": {
+		"prefix": "bs4-modal",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog\">",
@@ -897,8 +897,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-header": {
-		"prefix": "b-modal-header",
+	"bs4-modal-header": {
+		"prefix": "bs4-modal-header",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog\">",
@@ -917,8 +917,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-footer": {
-		"prefix": "b-modal-footer",
+	"bs4-modal-footer": {
+		"prefix": "bs4-modal-footer",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog\">",
@@ -934,8 +934,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-full": {
-		"prefix": "b-modal-full",
+	"bs4-modal-full": {
+		"prefix": "bs4-modal-full",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog\">",
@@ -957,8 +957,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-center": {
-		"prefix": "b-modal-center",
+	"bs4-modal-center": {
+		"prefix": "bs4-modal-center",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog modal-dialog-centered\">",
@@ -971,8 +971,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-header-center": {
-		"prefix": "b-modal-header-center",
+	"bs4-modal-header-center": {
+		"prefix": "bs4-modal-header-center",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog modal-dialog-centered\">",
@@ -991,8 +991,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-footer-center": {
-		"prefix": "b-modal-footer-center",
+	"bs4-modal-footer-center": {
+		"prefix": "bs4-modal-footer-center",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog modal-dialog-centered\">",
@@ -1008,8 +1008,8 @@
 			"</div>"
 		]
 	},
-	"b-modal-full-center": {
-		"prefix": "b-modal-full-center",
+	"bs4-modal-full-center": {
+		"prefix": "bs4-modal-full-center",
 		"body": [
 			"<div class=\"modal fade\">",
 			"\t<div class=\"modal-dialog modal-dialog-centered\">",
@@ -1031,8 +1031,8 @@
 			"</div>"
 		]
 	},
-	"b-nav": {
-		"prefix": "b-nav",
+	"bs4-nav": {
+		"prefix": "bs4-nav",
 		"body": [
 			"<nav class=\"nav\">",
 			"\t<li class=\"nav-item\">",
@@ -1041,8 +1041,8 @@
 			"</nav>"
 		]
 	},
-	"b-nav-vertical": {
-		"prefix": "b-nav-vertical",
+	"bs4-nav-vertical": {
+		"prefix": "bs4-nav-vertical",
 		"body": [
 			"<nav class=\"nav flex-column\">",
 			"\t<li class=\"nav-item\">",
@@ -1051,8 +1051,8 @@
 			"</nav>"
 		]
 	},
-	"b-nav-fill": {
-		"prefix": "b-nav-fill",
+	"bs4-nav-fill": {
+		"prefix": "bs4-nav-fill",
 		"body": [
 			"<nav class=\"nav nav-fill\">",
 			"\t<li class=\"nav-item\">",
@@ -1061,8 +1061,8 @@
 			"</nav>"
 		]
 	},
-	"b-navbar": {
-		"prefix": "b-navbar",
+	"bs4-navbar": {
+		"prefix": "bs4-navbar",
 		"body": [
 			"<nav class=\"navbar navbar-expand-lg navbar-${1|light,dark|} bg-$1 ${2|fixed-top,fixed-bottom,sticky-top|}\">",
 			"\t<a class=\"navbar-brand\">${4:Brand}</a>",
@@ -1079,8 +1079,8 @@
 			"</nav>"
 		]
 	},
-	"b-pagination": {
-		"prefix": "b-pagination",
+	"bs4-pagination": {
+		"prefix": "bs4-pagination",
 		"body": [
 			"<nav>",
 			"\t<ul class=\"pagination\">",
@@ -1091,48 +1091,48 @@
 			"</nav>"
 		]
 	},
-	"b-popover": {
-		"prefix": "b-popover",
+	"bs4-popover": {
+		"prefix": "bs4-popover",
 		"body": [
 			"<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" data-content=\"${5:Content}\">${4:Text}</button>"
 		]
 	},
-	"b-popover:a": {
-		"prefix": "b-popover:a",
+	"bs4-popover:a": {
+		"prefix": "bs4-popover:a",
 		"body": [
 			"<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" href=\"#\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" data-content=\"${5:Content}\">${4:Text}</a>"
 		]
 	},
-	"b-popover-title": {
-		"prefix": "b-popover-title",
+	"bs4-popover-title": {
+		"prefix": "bs4-popover-title",
 		"body": [
 			"<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" title=\"${5:Title}\" data-content=\"${6:Content}\">${4:Text}</button>"
 		]
 	},
-	"b-popover-title:a": {
-		"prefix": "b-popover-title:a",
+	"bs4-popover-title:a": {
+		"prefix": "bs4-popover-title:a",
 		"body": [
 			"<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" href=\"#\" type=\"${2|button,submit,reset|}\" data-toggle=\"popover\" data-placement=\"${3|top,bottom,right,left|}\" data-trigger=\"focus\" title=\"${5:Title}\" data-content=\"${6:Content}\">${4:Text}</a>"
 		]
 	},
-	"b-progress": {
-		"prefix": "b-progress",
+	"bs4-progress": {
+		"prefix": "bs4-progress",
 		"body": [
 			"<div class=\"progress\">",
 			"\t<div class=\"progress-bar bg-primary\" style=\"width: ${1:25}%\">${2:Text}</div>",
 			"</div>"
 		]
 	},
-	"b-progress-striped": {
-		"prefix": "b-progress-striped",
+	"bs4-progress-striped": {
+		"prefix": "bs4-progress-striped",
 		"body": [
 			"<div class=\"progress\">",
 			"\t<div class=\"progress-bar progress-bar-striped bg-primary\" style=\"width: ${1:25}%\">${2:Text}</div>",
 			"</div>"
 		]
 	},
-	"b-progress-striped-animated": {
-		"prefix": "b-progress-striped-animated",
+	"bs4-progress-striped-animated": {
+		"prefix": "bs4-progress-striped-animated",
 		"body": [
 			"<div class=\"progress\">",
 			"\t<div class=\"progress-bar progress-bar-striped progress-bar-animated bg-primary\" style=\"width: ${1:25}%\">${2:Text}</div>",
