@@ -1,9 +1,9 @@
 {
     "name": "bootstrap-v4-snippets",
-    "displayName": "Bootstrap v4 Snippets",
-    "description": "Bootstrap v4 Snippets for VS Code",
-    "version": "0.1.5",
-    "publisher": "Zaczero",
+    "displayName": "Bootstrap v4 Snippets inc blade",
+    "description": "Bootstrap v4 Snippets inc blade for VS Code",
+    "version": "0.1.6",
+    "publisher": "Adam",
 	"icon": "images/icon.png",
     "engines": {
         "vscode": "^1.10.0"
@@ -20,6 +20,14 @@
             {
                 "language": "razor",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
             }
         ]
     },
@@ -29,7 +37,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zaczero/bootstrap-v4-snippets.git"
+
+        "url": "https://github.com/Adam-Digitonomy/bootstrap-v4-snippets.git"
     },
     "homepage": "https://github.com/Zaczero/bootstrap-v4-snippets/blob/master/README.md"
 }
